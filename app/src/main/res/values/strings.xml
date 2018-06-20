@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Easy Bible</string>
+    <string name="favorites_title">Mis Libros Favoritos</string>
+    <string name="bookmarks_title">Marcadores</string>
+
+    <string name="chapter_tab_title">Capítulo %1$d</string>
+
+
+    <string name="recent_book_pref_key">recent</string>
+    <string name="favorites_books_pref_key">favorite_books</string>
+    <string name="bookmarks_pref_key">bookmark_books</string>
+    <string name="highlighted_text"> <![CDATA[<strong><font color="red">%1$s</font></strong>]]> </string>
+</resources>
