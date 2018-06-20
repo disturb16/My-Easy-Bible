@@ -92,8 +92,11 @@ public class BookmarksActivity extends BaseActivity {
                 dataAdapter.add(data);
                 adapter.notifyDataSetChanged();
 
-                bookmark = bookmarksArray.getJSONObject(jsonIndex++);
-                getLoaderManager().restartLoader(R.id.loaderBookmarkId, null, bookmark_callback);
+                if(++jsonIndex < bookmarksArray.length()){
+                    bookmark = bookmarksArray.getJSONObject(jsonIndex);
+                    getLoaderManager().restartLoader(R.id.loaderBookmarkId, null, bookmark_callback);
+                }
+
 
             }catch (Exception e){
                 Log.e("Reset Loader", e.getMessage());

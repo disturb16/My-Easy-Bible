@@ -6,6 +6,7 @@ import android.os.Bundle;
 public class BaseActivity extends AppCompatActivity {
 
     final static String BASE_URL = "http://getbible.net/json?";
+    //final static String BASE_URL = "http://www.esvapi.org/v2/rest/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

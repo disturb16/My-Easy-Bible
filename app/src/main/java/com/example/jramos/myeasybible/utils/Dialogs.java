@@ -25,22 +25,25 @@ public class Dialogs {
         private RadioGroup rgroup;
         Activity activity;
 
-        String[] books = new String[9];
+        String[] books = new String[12];
 
         public SearchBookDialog(Activity _activity) {
 
             super(_activity);
             activity = _activity;
 
-            books[0] = "James";
-            books[1] = "Daniel";
-            books[2] = "Joel";
-            books[3] = "Genesis";
-            books[4] = "Job";
-            books[5] = "Esther";
-            books[6] = "Romans";
-            books[7] = "Titus";
-            books[8] = "Revelation";
+            books[0] = "Genesis";
+            books[1] = "Exodus";
+            books[2] = "Leviticus";
+            books[3] = "Numbers";
+            books[4] = "Deuteronomy";
+            books[5] = "Joshua";
+            books[6] = "Judges";
+            books[7] = "Ruth";
+            books[8] = "1 Samuel";
+            books[9] = "2 Samuel";
+            books[10] = "1 Kings";
+            books[11] = "2 Kings";
         }
 
         @Override

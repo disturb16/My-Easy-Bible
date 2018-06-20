@@ -27,7 +27,7 @@ public class BookLoader extends AsyncTaskLoader <List<Chapter>> {
 
     public BookLoader(Context context, String _urlString) {
         super(context);
-        urlString = _urlString;
+        urlString = _urlString.replace(" ", "%20");
     }
 
     @Override
