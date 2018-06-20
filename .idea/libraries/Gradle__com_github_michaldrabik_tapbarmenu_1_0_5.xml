@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.michaldrabik:tapbarmenu-1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tapbarmenu-1.0.5.aar/cbaaaa52717863e559bf43bb2131f06d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tapbarmenu-1.0.5.aar/cbaaaa52717863e559bf43bb2131f06d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.michaldrabik/tapbarmenu/1.0.5/b2f6cd726cba71841475f03f0448dff46a8682bf/tapbarmenu-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
